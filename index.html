@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>6Months App Challenge</title>
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero-title">6Months App Challenge</h1>
+      <h2 class="hero-title-sub">自分を成長させる半年間に</h2>
+      <a
+        class="button"
+        href="https://forms.office.com/Pages/ResponsePage.aspx?id=LCcCsHdbmkWCx1NZjEqlEZzeFa7W_mhAs_UiUbPq2QxUM1U2MjBCVVpYNTk0N0ZFV0xCMzlZTFdLVS4u"
+        >参加する</a
+      >
+    </header>
+    <section id="modal" class="modal-container">
+      <div class="modal-content">
+        なんでもOK。やりたかったこと、やってみたかったことをやってみよう。以下は一例：
+        <ul>
+          <li>気になる言語のToDoアプリ</li>
+          <li>Ruby on Railsのチュートリアル</li>
+          <li>ゲームアプリ</li>
+          <li>CSS勉強のためのオシャレなWebページ</li>
+          <li>趣味の仲間と使えるWebアプリ</li>
+          <li>AIで株価の予想だして自動売買してくれるアプリ</li>
+          <li>あなたが今ほしいアプリ</li>
+        </ul>
+        <div class="text-center">
+          <button class="button button-dark" onclick="closeModal()">閉じる</button>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div class="flex">
+        <div class="flex__item flex__item-full">
+          6Months App Challenge
+          は６ヶ月間という期間を設けて、参加する個人・グループがそれぞれ自分たちのアプリ完成を目指すチャレンジです。
+          作るアプリは参加者の自由です。大きな夢を実現するアプリでも、小さな１歩を踏み出すためのアプリでも当活動は歓迎します。
+          <div class="text-center">
+            <a class="button button-dark" onclick="openModal()">どんなアプリを作る？</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex__item">
+          <h1></h1>
+          <span class="font-heavy">自分の成長のために。</span
+          >個人開発になかなか踏み切れない方は、一歩目を踏み出すチャンスです。
+          新しいことに挑戦して今年中に１つ成長してみませんか？
+        </div>
+        <div class="flex__item">
+          <span class="font-heavy">仲間と目標を共有する。</span
+          >独りで頑張るより、仲間がいたほうがモチベーションが上がるかもしれません。
+          自分の目標をみんなと共有し、一緒にゴールを目指しましょう。
+        </div>
+        <div class="flex__item">
+          <span class="font-heavy">相互にサポート。</span>
+          活動の参加者や周りと助け合いましょう。
+          Teamsにもサポートしてくれるチャンネルはたくさんあります。
+          新たな交流のきっかけにしてみてください。
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex__item flex__item-full">
+          質問がある方や、話を聞いてみたいという方はTeamsかメールで伊藤 貴洋までご連絡ください。
+        </div>
+      </div>
+    </article>
+    <section class="parallax">
+      <div class="flex flex-center">
+        <div class="flex__item flex__item-full">
+          <span class="font-heavy">参加のルール</span>
+          <ul>
+            <li>Teamsのグループ「6Months App Challenge」に参加していただきます。</li>
+            <li>月一回、アプリ開発の状況報告し合うタイミングを設けます。</li>
+            <li>作成するアプリのジャンル・プラットフォーム・利用技術は問いません。</li>
+            <li>会社業務とは一切関係ない、「課外活動」です。</li>
+            <li>開発にはPJで利用していない個人所有の端末を利用していただきます。</li>
+            <li>作成したアプリの権利は個人に帰属します。</li>
+            <li>参加者の成長が目的であり、形ある成果は運営側からは求めません。</li>
+            <li>諸般の事情による途中離脱はOKです。</li>
+            <li>行動規範を守って楽しんでください。</li>
+          </ul>
+          <div style="text-align: center; margin: 5vh;">
+            <a href="./code-of-conduct.html" class="button">行動規範</a>
+          </div>
+          <div>
+            <span class="font-heavy">この活動のキッカケ。</span
+            >社内の技術者の交流を深めたいとか、技術に興味を持つチャンスにして欲しいとか色々思いはありました。
+            ですが一番の理由は私自身が自分独りだと頑張れないからです。
+            前からやってみたいことは色々頭にあれど、重い腰があがらず悩んでいました。
+            そんな人にも気軽に来ていただければ嬉しいです。
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    //初期表示は非表示
+    document.getElementById('modal').style.display = 'none'
+    const modal = document.getElementById('modal')
+
+    function openModal() {
+      modal.style.display = 'block'
+    }
+
+    function closeModal() {
+      modal.style.display = 'none'
+    }
+  </script>
+</html>
