@@ -1,4 +1,5 @@
 module.exports = {
+  head: [['meta', { name: 'og:image', content: '/ogp.png' }]],
   title: '6MAC',
   description: '6ヶ月でアプリを作ろう',
   themeConfig: {
