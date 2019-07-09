@@ -8,5 +8,6 @@ module.exports = {
       { text: 'スケジュール', link: '/schedules/' },
       { text: 'FAQ', link: '/faq/' },
     ],
+    sidebar: 'auto',
   },
 }
