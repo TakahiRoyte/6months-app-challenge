@@ -1,0 +1,24 @@
+{
+  "name": "6month-app-chalenge",
+  "version": "0.0.1",
+  "description": "6month-app-challenge portal",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakahiRoyte/6months-app-challenge.git"
+  },
+  "author": "Takahiro Ito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TakahiRoyte/6months-app-challenge/issues"
+  },
+  "homepage": "https://github.com/TakahiRoyte/6months-app-challenge#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
