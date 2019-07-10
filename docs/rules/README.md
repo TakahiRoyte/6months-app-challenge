@@ -4,7 +4,7 @@
 
 参加にあたり、必ずご一読ください。
 
-- Teamsのグループ「6Months App Challenge」に参加していただきます。
+- Teamsのグループ「[6Months App Challenge](https://teams.microsoft.com/l/team/19%3ab99ad6b91b134535b45231634885186c%40thread.skype/conversations?groupId=726cfe34-6a96-4f2d-aed7-3d597664c9bd&tenantId=b002272c-5b77-459a-82c7-53598c4aa511)」に参加していただきます。
 - 月一回、土曜日に集まって作業する「もくもく作業日」を開催します。
 - 作成するアプリのジャンル・プラットフォーム・利用技術は問いません。
 - 会社業務とは一切関係ない、「課外活動」です。
@@ -24,4 +24,4 @@
 
 ## 困っていて助けが必要ですか?
 
-Teamsのチャンネルでお気軽にご相談ください。
+Teamsのチャンネル「[6Months App Challenge](https://teams.microsoft.com/l/team/19%3ab99ad6b91b134535b45231634885186c%40thread.skype/conversations?groupId=726cfe34-6a96-4f2d-aed7-3d597664c9bd&tenantId=b002272c-5b77-459a-82c7-53598c4aa511)」でお気軽にご相談ください。
